@@ -14,6 +14,13 @@
     <div>
       This counter value is: {{ counterStore.oddOrEven }}
     </div>
+
+    <hr>
+
+    <div>
+      Edit Count:
+      <input type="number" v-model="counterStore.count">
+    </div>
   </div>
 </template>
 
